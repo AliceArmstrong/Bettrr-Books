@@ -1,0 +1,48 @@
+https://trello.com/b/PxB0XPyQ/bettrr-books
+
+MVP
+As a user
+So that I can browse books
+I want to see a list of books
+
+As a user
+So that I can get a more relevant list
+I want to see books categorised into genres
+
+V2
+As a user
+So I know how good a book is
+I want to see ratings
+
+As a user
+So I can show how good a book is
+I want to be able to leave a rating
+
+As a user
+So I can find books
+I want a search function (author, rating, genre)
+
+As a user
+To enhance my experience
+I want to use an app that's styled for desktop
+
+V3
+As a user
+To use my app on the go
+I want it to be styled for mobile
+
+As a user
+To customise my experience
+I want to be able to make an account
+
+As a user
+To keep track of my books
+I want to save a list of books I've read
+
+As a user
+To discover new books
+I want to receive recommendations based on books I've read
+
+As a user
+To plan out my reading
+I want to have a wishlist of books to read
