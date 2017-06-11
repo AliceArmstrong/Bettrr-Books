@@ -3,11 +3,12 @@ const url = `https://www.goodreads.com/search.xml?key=8WjJsZqkhRuDWJZvIsCDw&q=${
 
 const searchAuthor = (authorText) => {
   // const author = document.getElementById('authorTextbox').innerText;
-
+  console.log(authorText);
+  console.log('searchAuthor');
 };
 
 fetch(url, {
-  method: 'get',
+  method: 'get'
 }).then((response) => response.json())
 .then((data) => {
 
@@ -16,9 +17,10 @@ fetch(url, {
 });
 
 const addEventListener = () => {
-  
+  console.log('addEventListener');
   const getByAuthor = document.getElementById('getByAuthor');
   const authorText = document.getElementById('authorTextbox').value;
-
+  console.log(authorText);
+  console.log(getByAuthor);
   getByAuthor.addEventListener('click', searchAuthor(authorText));
 };

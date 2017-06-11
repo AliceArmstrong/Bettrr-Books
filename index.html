@@ -1,17 +1,19 @@
 <html>
 <head>
-  <script type="test/javascript" src="/app/app.js"></script>
+  <script type="text/javascript" src="/dist/app.js"></script>
 </head>
 
 <body>
-  <!-- <form id="form" runat="server"> -->
+
     <h2>Get books by author</h2>
-    Author: <input type="text" id="authorTextbox" value="" /> <br />
+    <form id="getByAuthor">
+    Author: <input type="text" id="authorTextbox" required>
+      <button class="submit" type="button">
+    </form>
     <!-- Title: <input type="text" id="titleTextbox" value="The Name of the Wind" /> <br /> -->
-    <input type="button" value="Get books" id="getByAuthor" />
     <br /><br />
     <ul id="BookContainer" ></ul>
-  <!-- </form> -->
+
 </body>
 
 </html>
